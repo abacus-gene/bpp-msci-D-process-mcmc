@@ -1,13 +1,15 @@
 # bpp-msci-D-process-mcmc
 
-**(0)** The included data files are for the Heliconius examples used in the paper.  To run bpp4, using a command 
+**(0)** 
+The included data files are for the Heliconius examples used in the paper.  To run bpp4, using a command 
 like the following
 
 bpp --cfile bpp-D-noncod.ctl
 
 This generates an MCMC sample file called h_mel_tim_num_noncod_mcmc_L500_small.txt.
 
-**(1)** The program bpp-msci-D-process-mcmc is for processing the MCMC
+**(1)** 
+The program bpp-msci-D-process-mcmc is for processing the MCMC
 sample file from bpp4 under the bidirectional introgression (BDI)
 model to remove label switching.
 
@@ -20,7 +22,8 @@ cl -Ox bpp-msci-D-process-mcmc.c minsub.c
 
 cc -O2 -o bpp-msci-D-process-mcmc bpp-msci-D-process-mcmc.c minsub.c -lm
 
-**(2)** To run the program, use the following command.  
+**(2)** 
+To run the program, use the following command.  
 
  bpp-msci-D-process-mcmc <mcmc-sample-filename> <phi_X-column> <phi_Y-column> <theta_X-column> <theta_Y-column>
 
@@ -49,7 +52,7 @@ bpp --summary --cfile bpp-D-noncod.ctl
 The post-processing algorithms have been implemented in bpp since version 4.5.0, so they are automatically run when you 
 fit the bidirectional introgression (DBI) model or the double-DBI model.
 
-#References
+##References
 
 Yang Z, Flouri T. 2022. Estimation of cross-species introgression
 rates using genomic data despite model unidentifiability. Molecular Biology
