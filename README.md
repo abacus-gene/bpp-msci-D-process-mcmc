@@ -52,7 +52,7 @@ bpp --summary --cfile bpp-D-noncod.ctl
 The post-processing algorithms have been implemented in bpp since version 4.5.0, so they are automatically run when you 
 fit the bidirectional introgression (DBI) model or the double-DBI model.
 
-##References
+##References##
 
 Yang Z, Flouri T. 2022. Estimation of cross-species introgression
 rates using genomic data despite model unidentifiability. Molecular Biology
